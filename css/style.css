@@ -1,0 +1,220 @@
+header {
+  position: relative;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/*Navbar e header*/
+
+.navbar{
+  /*opacity: 0.8;*/
+}
+
+.header-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+
+.header-description{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.button-nav{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: white; 
+}
+
+.button-nav:hover{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: white;
+}
+
+.pesquisa-search{
+   position: absolute;
+    right: 46px;
+    top: 53%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat !important;
+    width: 25px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 180px;
+    padding-top: 29px;
+}
+
+ /*               */
+
+
+/*Form area*/
+
+
+.itens-form{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #17a2b8;
+}
+
+
+ /*Footer area*/
+
+
+ .footer-widget-area {
+  background-color: #003152;
+  right: 0;
+  margin-top: 21em;}
+
+.widget--footer {
+  text-align: center;
+  padding-top: 1.875rem;
+  padding-bottom: 3rem;
+  color: white; }
+.widget--footer.widget_nav_menu li {
+  display: inline-block; }
+.widget--footer [id*=social] {
+  float: none;
+  font-size: 0; }
+.widget--footer [id*=social] li.menu-item {
+  margin: 0 2px;
+  width: 2.75rem !important;
+  height: 2.75rem !important;
+  border: 2px solid currentColor;
+  border-radius: 50%; }
+.widget--footer [id*=social] li.menu-item a {
+  color: inherit; }
+.widget--footer [id*=social] li.menu-item a:before {
+  font-size: 22px; }
+.widget--footer [id*=social] li.menu-item:hover {
+  opacity: .7; }
+.widget--footer .widget-title {
+  margin-bottom: 0rem; }
+.widget--footer .search-form {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto; }
+.widget--footer .search-form .search-field {
+  font-weight: 600;
+  background-color: white;
+  color: #484848; }
+
+.menu-social-menu-container {
+  position: relative;
+  top: 5px;
+  display: inline-block; }
+
+.menu-social-menu-container {
+  top: 0; }
+
+.menu-list{
+  list-style-type: none;
+}
+
+.item-twitter, .item-facebook{
+  width: 41px;
+}
+
+/*    Card Infos    */
+
+.card{
+  margin-right: 36px;
+}
+
+.card-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.container-separation{
+  width: 100%;
+}
+
+.container-separation2{
+  width: 124px;
+  background-color: white;
+  height: 10px;
+  border-radius: 20px;
+
+}
+
+.img-header{
+  width: 
+}
+
+/*Container posts*/
+
+.nav-post-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 2px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input[type=text] {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+color: #4dd0e1;
+}
